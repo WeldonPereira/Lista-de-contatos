@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #EFEFEF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 1.6em;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+h1{
+    font-size: 2.6em;
+}
+
+.list-wrapper{
+    width: 90%;
+    max-width: 50em;
+    max-height: 40em;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, .35);
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid rgba(37, 37, 37, 0.2);
+}
+
+.list-item:hover{
+    background-color: rgba(155, 151, 151, 0.2);
+}
+
+.list-item__contact{
+    display: flex;
+    align-items: center;
+    gap: 1.6em;
+    margin-left: 1em;
+}
+
+.list-item__name{
+    font-size: 2em;
+    margin-bottom: .35em;
+}
+
+.list-item__email{
+    font-size: 1.4em;
+    color: #585858;
+}
+
+.list-item__imagem img{
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+}
